@@ -4,7 +4,7 @@ import { Component, EventEmitter, Input, OnInit, Output } from '@angular/core';
   selector: 'app-check-box',
   template: `
     <mat-checkbox
-      class = "header-checkbox"
+      class = "checkbox"
       [checked] = "isChecked"
       [disabled] = "isDisabled"
       (change) = "onChange.emit()"

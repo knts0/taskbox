@@ -1,0 +1,45 @@
+::ng-deep .checkbox  {
+  &.mat-checkbox-checked {
+    .mat-checkbox-background {
+      // border-color:  mat-color($primary);
+      border:        solid 2px #0AA0F5;
+      background-color: #0AA0F5;
+      border-width:  1px;
+      border-radius: 4px;
+    }
+  }
+
+  &.mat-checkbox-disabled {
+    .mat-checkbox-background {
+      // border-color:  map-get($mat-grey, 300);
+      border:        solid 2px #e0e0e0;
+      border-width:  1px;
+      border-radius: 4px;
+      background-color: #f5f5f5;
+    }
+  }
+
+  .mat-checkbox-inner-container {
+    width:  16px;
+    height: 16px;
+  }
+
+  .mat-checkbox-frame {
+    // border-color: map-get($mat-grey, 300);
+    border-color:     solid 2px #e0e0e0;
+    border-radius:    4px;
+    background-color: white;
+  }
+
+  .mat-checkmark {
+    fill: #0AA0F5;
+  }
+
+  .mat-checkbox-checkmark-path {
+    stroke: white !important;
+  }
+
+  .mat-checkbox-ripple {
+    display: none;
+  }
+}
