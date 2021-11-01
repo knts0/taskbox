@@ -11,6 +11,7 @@ import { Component, EventEmitter, Input, OnInit, Output } from '@angular/core';
     >
     </mat-checkbox>
   `,
+  styleUrls: ['./check-box.component.scss'],
 })
 export class CheckBoxComponent implements OnInit {
 
