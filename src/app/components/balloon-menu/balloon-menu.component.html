@@ -1,9 +1,6 @@
-<button mat-button [matMenuTriggerFor]="menu">Menu</button>
-<mat-menu #menu="matMenu">
-  <!-- <button mat-menu-item *ngFor="let item of items">
+<button mat-button [matMenuTriggerFor]="balloonMenu">Menu</button>
+<mat-menu #balloonMenu="matMenu">
+  <button mat-menu-item *ngFor="let item of items">
     {{ item.label }}
-  </button> -->
-  <button mat-menu-item>
-    aaa
   </button>
 </mat-menu>
