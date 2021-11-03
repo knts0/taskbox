@@ -6,5 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'intro-storybook-angular-template';
+  items = [
+    { itemEnum: 'curry', label: 'カレー' },
+    { itemEnum: 'steak', label: 'ステーキ' },
+    { itemEnum: 'sushi', label: '寿司' },
+  ]
 }
