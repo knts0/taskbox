@@ -1,5 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { MatButtonModule } from '@angular/material/button';
 import { MatMenuModule } from '@angular/material/menu'
 
 import { AppComponent } from './app.component';
@@ -16,6 +17,7 @@ import { BalloonMenuComponent } from './components/balloon-menu/balloon-menu.com
     BrowserModule,
     BrowserAnimationsModule,
 
+    MatButtonModule,
     MatMenuModule,
   ],
   providers: [],
